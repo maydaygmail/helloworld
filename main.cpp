@@ -21,7 +21,8 @@ public:
         m_isLeaf = leaf;
        
         falure = NULL;
-        count = 0;
+        count = 1;
+		int d = 3;
         memset(nodes, 0, sizeof(nodes));
     }
     
